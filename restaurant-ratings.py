@@ -5,6 +5,7 @@ def get_restaurant_ratings(filename):
 
     the_file = open(filename)
 
+    restaurant_score = []
     restaurant_ratings = {}
 
     for line in the_file:
